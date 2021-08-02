@@ -82,7 +82,8 @@
   border: 0;
   cursor: pointer;
 }
-.submit:hover {
+.submit:hover,
+.remove:hover {
   background-color: #2deece;
 }
 .form {
