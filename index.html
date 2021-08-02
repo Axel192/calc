@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <button class="normal-bg">Вернуть белый фон</button>
+   <button class="change-bg">Сменить цвет фона</button>
+    <div class="main-body">
+        <p class="value">0</p> 
+        <ul class="buttons">
+       <li class="button-li"> <button class="plus">+</button> </li>
+       <li class="button-li"> <button class="minus">-</button></li>
+    </ul>
+    <form class="form"  onsubmit="return false">
+    <input type="text" placeholder="плюс" class="input" >
+    <input type="text" placeholder="минус" class="input-minus">
+    <input type="text" placeholder="деление" class="input-delenie">
+    <input type="text" placeholder="умножение" class="input-umnozh">
+    <input type="submit"  class="submit" value="отправить" >
+    <input type="submit" class="remove" value="очистить">
+    </form>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
